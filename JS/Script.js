@@ -238,7 +238,7 @@ function NavFunction() {
 
                   { "QUESTION": "Gender Bias issues are prevalent in the career field for STEM industries (Reuben et al. 2014) leading to reduction in recruitment of women, or unequal treatment in the workplace. Women may be unintentionally treated differently in your organisation – what can you do to solve this issue?", 
                      "CHOICE1": "Introduce gender bias training or unconscious bias training and make this mandatory for all staff.", 
-                     "CHOICE2": "Allocate a specific number of roles within your organisation for female employees only. This address any imbalance caused by unconscious bias", 
+                     "CHOICE2": "Allocate a specific number of roles within your organisation for female employees only. This addresses any imbalance caused by unconscious bias", 
                      "CHOICE3": "Ensure that all women are trained in how to handle gender bias they may experience and have a reporting system in case they encounter this in their career", 
                      "CORRECT": 1, 
                       "WRONG": "Not Quite There", 
