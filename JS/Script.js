@@ -178,7 +178,6 @@ $(document).ready(function () {
 
     $("td").click(function () {
         //listen for clicking a TD in the table. Need to do this so we know which question to display. 
-        //Not so relevant for prototype really but in event of creating an actual game, we want to have a journey from school age to career age questions
         var $this = $(this);
         col = $this.index();
         row = $this.closest('tr').index();
@@ -211,7 +210,7 @@ function NavFunction() {
                        "CHOICE2": "Male and female students just have different interests. It’s a biological fact that most girls just don’t enjoy science subjects and are focused more on the areas which they are skilled at, like arts or caring roles. It’s not something that an organisation can help with.", 
                        "CHOICE3": "Enrol your organisation in an outreach programme with a secondary school. Ensure your outreach ambassador selection contains equal number of female and males role models to show children what the work in STEM involves and what career routes are available.", 
                        "CORRECT": 3, 
-                       "WRONG": "Not Quite There", 
+                       "WRONG": "Nice try, but not quite", 
                        "RIGHT": "Correct Answer!", 
                        "FEEDBACKG": "Well done! Providing information about career choices, and access to role models may help to encourage girls to pursue GCSE subjects further. Outreach programmes can be successful in helping children rekindle their interest in STEM. 71% of participants in one technology outreach programme for secondary schools, were more interested in studying science compared to 44% who had not taken part. In addition, 60% of these pupils were more interested in studying mathematics, technology and engineering (NFER 2015). Does your organisation have an outreach scheme? ", 
                        "FEEDBACKP": "Organisations can definitely get involved as early as school age. One survey revealed that 43% of girls said they were put off STEM careers because they did not know enough about the kind of careers available and 60% said they also were put off by a lack of female role models (WISE 2012). Providing this information outreach programmes may help to encourage girls to pursue STEM after GSCE. Outreach programmes can be successful in helping children rekindle their interest in STEM. 71% of participants in one technology outreach programme for secondary schools, were more interested in studying science compared to 44% who had not taken part. In addition, 60% of these pupils were more interested in studying mathematics, technology and engineering (NFER 2015). Does your organisation have an outreach scheme?"},
@@ -221,7 +220,7 @@ function NavFunction() {
                     "CHOICE2": "Set up a partnership between your organisation and a university to create a mentoring scheme for female students.", 
                     "CHOICE3": "This isn’t something that an organisation can get involved with. The issue lies with the colleges and universities to ensure they equip female students with the skills and knowledge they need to survive in the STEM industry", 
                     "CORRECT": 2, 
-                     "WRONG": "Not Quite There", 
+                     "WRONG": "Nice try, but not quite", 
                      "RIGHT": "Correct Answer!", 
                     "FEEDBACKG": "Well done! You have chosen correctly. Research has shown that having an industry mentor which they relate to can help females understand barriers to be faced and support measures needed in order to pursue a STEM career, and how to go about this (Morton 2011). A women-only mentoring programme can help to support and motivate women considering entering the STEM professions (WISE 2009).  Could your organisation partner with universities to provide mentoring?", 
                     "FEEDBACKP": "This is actually an area which an organisation can have a hands-on role in making a difference for female students of STEM subjects. Research has shown that having an industry mentor which they relate to can help females understand barriers to be faced and support measures needed in order to pursue a STEM career, and how to go about this (Morton 2011). A women-only mentoring programme can help to support and motivate women considering entering the STEM professions (WISE 2009).  Could your organisation partner with universities to provide mentoring?"}],
@@ -231,7 +230,7 @@ function NavFunction() {
                      "CHOICE2": "Social stigma isn’t something which a company can get involved in changing. It’s a much wider societal issue.", 
                      "CHOICE3": "Start a campaign in your organisation to share the stories of role models. These should be women who work and have children, and men who work part time and have successful careers", 
                      "CORRECT": 3, 
-                      "WRONG": "Not Quite There", 
+                      "WRONG": "Nice try, but not quite", 
                        "RIGHT": "Correct Answer!", 
                      "FEEDBACKG": "Great, that’s right! By ensuring role models for duality are accessible and visible - women who work and have children, and men who work part time and have successful careers, we can encourage men and women to choose a career option which suits them, rather than is simply the norm. (UK Government 2014). Does your organisation have visible role models of both genders to promote duality?", 
                      "FEEDBACKP": "Not quite correct.  An organisation can absolutely contribute to this stage of the pipeline. Flexible working is only half of the battle, and whilst useful should be equal for both genders as well as accompanied by other measures. By ensuring role models for duality are accessible and visible - women who work and have children, and men who work part time and have successful careers, we can encourage men and women to choose a career option which suits them, rather than is simply the norm. (UK Government 2014) Does your organisation have visible role models of both genders to promote duality?"},
@@ -241,7 +240,7 @@ function NavFunction() {
                      "CHOICE2": "Allocate a specific number of roles within your organisation for female employees only. This addresses any imbalance caused by unconscious bias", 
                      "CHOICE3": "Ensure that all women are trained in how to handle gender bias they may experience and have a reporting system in case they encounter this in their career", 
                      "CORRECT": 1, 
-                      "WRONG": "Not Quite There", 
+                      "WRONG": "Nice try, but not quite",  
                        "RIGHT": "Correct Answer!", 
                      "FEEDBACKG": "Well done! By introducing a mandatory gender bias or unconscious bias training scheme, your organisation can help equip your employees with the skills they need to recognise and overcome this issue! (Government 2014) Could your organisation introduce unconscious bias training?", 
                      "FEEDBACKP": "Not quite right. Diversity is not just a women’s issue. In order to combat unconscious bias, both men and women must work together. Gender bias can affect potential employees as well as current employees, meaning that female applicants can also be treated differently, and possibly overlooked at application, interview stage and even for promotion opportunities. By making gender bias training/unconscious bias training mandatory (Government 2014) organisations can equip their employees with the skills they need to recognise their own unintentional assumptions. Could your organisation introduce unconscious bias training?"}]]
