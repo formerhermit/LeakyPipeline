@@ -13,21 +13,24 @@
          <script src="JS/Script.js"></script>
     </head>
     <body>
-
+ <div id="DripZone">
 <!--Navigation Bar using Navigation Function to mark current active page-->
 <ul class="topnav" id="myTopnav">
-      <li><a href="home.html" class="active">Home</a></li>
-      <li><a href="About.html">About</a></li>
-    <li><a href="Actions.html">Take Action!</a></li>
-      <li><a href="Bib.html">Bibliography</a></li>
+      <li><a href="home.html" class="active" style="color: #fff !important">Home</a></li>
+      <li><a href="About.html" style="color: #fff !important">About</a></li>
+    <li><a href="Actions.html" style="color: #fff !important">Take Action!</a></li>
+      <li><a href="Bib.html" style="color: #fff !important">Bibliography</a></li>
+      <li><a href="http://www.smartsurvey.co.uk/s/G71ZK/" style="color: #fff !important">Questionnaire</a></li>
       <li class="icon"><a href="javascript:void(0);" onclick="NavFunction()">&#9776;</a></li>
 </ul>
 
 <!--Game Title-->
+         
         <div id="headerwrapper">
             The Leaky Pipeline
         </div>
-
+       
+            
 <!--Container containing table contain the game pieces - when game begins show only start images-->
          <div id="container">   
               <div id="container2" style="cursor:pointer">
@@ -58,19 +61,20 @@
                     <p>
                     By clicking on pieces of the pipe, you will be asked to consider different scenarios which a woman might face on her career pathway, and make a choice as to how to solve this problem. By choosing the most effective solution
                     you will 'fix' that piece of the pipe, and improve your score.</p>
-                    <p style="text-align: center; color: #cd6516">
-                      Please ensure that you complete the post-test questionnaire when you have finished.
+                    <p style="text-align: center">
+                      <b>Please ensure that you complete the post-test questionnaire when you have finished. You can find this on the navigation bar</b>
                     </p>
                     </div>
              </div>
         </div>
-       
+       </div>
+        </div>
  <!--Dialog box for pipe piece which displays relevant scenario with radio buttons for choices-->       
              
     </div>
         <div id="dialog" title="Scenario">
             <div>
-                <div class="p2" id="dialogQuestion"></div>
+                <div id="questionContainer"><div id="dialogImage"></div><div class="p2" id="dialogQuestion"></div></div></div>
                     <div class="p4">
                         <div id="radioLabel" style="cursor:pointer"><input type="radio" name="radChoice" class="terms" id="dialogC1" value="1" checked="checked"/><label id="dialogL1" for="dialogC1" style="cursor:pointer"></label><br/></div>
                         <p></p>
@@ -102,8 +106,19 @@
                    </div>
              <p></p>
                  <div id="actionBox" class="p2"><div id="action"></div>
-                      <p></p>Click <a href ="Actions.html" target="_blank" style="color: #000">here</a> to see actions you can take
+                      <p></p>Click <a href ="Actions.html" style="color: #000">here</a> to see actions you can take
                      </div>
-        </div>
+   
+
+<audio id="Cheer" preload="auto">
+    <source src="Sounds/Cheer.mp3"/>
+</audio>
+<audio id="Clap" preload="auto">
+    <source src="Sounds/Clap.mp3"/>
+</audio>
+<audio id="Splash" preload="auto">
+    <source src="Sounds/Splash.mp3"/>
+</audio>
+      
     </body>
 </html>
