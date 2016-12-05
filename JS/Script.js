@@ -16,14 +16,13 @@ var row
 var col
 
 $(document).ready(function () {
-
     $("#accordion").accordion({
         collapsible: true,
         active: false
     });
 
     var winW = $(window).width() / 2;
-    var myPos = { my: "center top", at: "center top+50", of: window };
+    var myPos = { my: "center top", at: "center top+100", of: window };
 
     //When page loads show welcome message
     var welcomeDialog = $("#welcomeDialog").dialog({
@@ -350,3 +349,4 @@ function changeBackground(){
     $('#myTopnav').hide();
     $('#headerwrapper').hide();
 }
+
