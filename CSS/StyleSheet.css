@@ -1,6 +1,6 @@
 body {
        background-color: #32293C!important;
-       font-family:DokChampa;
+       font-family:Arial, serif;
        color: #f9f9f9;
         margin: 0;
 }
@@ -58,7 +58,7 @@ p {
 }
 
 #actionBox{
-   background-color: #887A96;
+   background-color: #4B3363;
     border-radius: 6px;
     border-width: 2px;
     border-style: solid;
@@ -170,7 +170,7 @@ p {
 }
 
 #headerwrapper{
-    font-family: Calibri;
+    font-family: Calibri, Arial, serif;
      width:100%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;

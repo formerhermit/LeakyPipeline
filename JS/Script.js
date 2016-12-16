@@ -64,9 +64,10 @@ $(document).ready(function () {
                 $(cell).find(".start").hide();
                 $(cell).find(".fixed").show();
                 pipeStateArray[row][col] = pipeStateEnum.fixed;
+                 changeBackground();
                 var audio = $("#Cheer")[0];
                 audio.play();
-                changeBackground();
+               
                 //if they get the question correct then set the enum state to fixed, add correct feedback to the feedbakc popup and display the pretty image. Hide the leaky one
             } else {
                 document.getElementById("answerText").style.backgroundColor = "#4B3363";
@@ -75,9 +76,10 @@ $(document).ready(function () {
                 $(cell).find(".start").hide();
                 $(cell).find(".leaky").show();
                 pipeStateArray[row][col] = pipeStateEnum.leaky;
+                  fallingWater();
                  var audio = $("#Splash")[0];
                 audio.play();
-                fallingWater();
+               
                 //Otherwise they get the poor feedback and the leaky piece. Set enum to leaky in the pipe state array
             }
             $(this).dialog("close");
