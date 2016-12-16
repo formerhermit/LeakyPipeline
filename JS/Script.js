@@ -21,7 +21,7 @@ $(document).ready(function () {
         active: false
     });
 
-    var winW = $(window).width() / 2;
+    var winW = $(window).width() / 2+100;
     var myPos = { my: "center top", at: "center top+100", of: window };
 
     //When page loads show welcome message
@@ -43,7 +43,7 @@ $(document).ready(function () {
 
     //make this happen when document ready - prepare dialog box for scenarios
 
-    var winW = $(window).width() / 2;
+    var winW = $(window).width() / 2 +150;
     var dialog = $("#dialog").dialog({
         dialogClass: "no-close",
         width: winW,
@@ -90,7 +90,7 @@ $(document).ready(function () {
     });
 
     //Feedback Box
-    var winW = $(window).width() / 2;
+    var winW = $(window).width() / 2 +100;
     var feedbackDialog = $("#feedbackDialog").dialog({
         dialogClass: "no-close",
         width: winW,
@@ -177,7 +177,7 @@ $(document).ready(function () {
     }
 
     //another popup, this time for results.
-    var winW = $(window).width() / 2;
+    var winW = $(window).width() / 2 +100;
 
     var resultsDialog = $("#resultsDialog").dialog({
         dialogClass: "no-close",
@@ -297,16 +297,19 @@ function fallingWater() {
                     var DripH = $(window).height();
                     $('#DripZone').css("background-image", "url(Images/LosingBG.png)");
                     $('#DripZone').css("height", DripH);
+                    //changebackground to leaky background
                 for (var i = 0; i < qt; ++i) {
                     var $droplet = $('<div class="droplet"></div>');
                     var randomImageSize = Math.ceil(Math.random()*60)+10;
+                    //variable to make images random sizes
                     $droplet.css({
                         'left': (Math.random() * $(window).width()) + 'px',
                         'top': (- Math.random() * $(window).height()) + 'px',
                         'width': randomImageSize + 'px',
                         'height': randomImageSize + 'px'
+                        //use droplet CSS and random variable to make droplets
                     });
-                    // add this snowflake to the set of snowflakes
+                    // add this droplet to the set of droplets
                     $WaterDroplets = $WaterDroplets.add($droplet);
                 }
                 $('#DripZone').prepend($WaterDroplets);
